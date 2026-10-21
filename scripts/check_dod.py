@@ -67,7 +67,7 @@ def check_excerpt(rel, start, path, code, source, errors):
     target = source / path
     if not target.is_file():
         errors.append(f"{rel}:{start}: DoD 2: verify file not found in source: {path}")
-        return
+        return False
     have = [l.strip() for l in target.read_text(encoding="utf-8").splitlines()]
     pos = 0
     for line in code:
@@ -78,7 +78,8 @@ def check_excerpt(rel, start, path, code, source, errors):
             pos = have.index(want, pos) + 1
         except ValueError:
             errors.append(f"{rel}:{start}: DoD 2: line not found in {path} (or out of order): {want}")
-            return
+            return False
+    return True
 
 
 def check_code(rel, blocks, source, errors, compared):
@@ -90,8 +91,7 @@ def check_code(rel, blocks, source, errors, compared):
             for line in filter(str.strip, code):
                 if line.strip() not in workflow:
                     errors.append(f"{rel}:{start}: DoD 2: command is not run by CI: {line.strip()}")
-        elif source:
-            check_excerpt(rel, start, marker, code, source, errors)
+        elif source and check_excerpt(rel, start, marker, code, source, errors):
             compared.append(f"{rel}:{start} = {marker}")
 
 
