@@ -1,0 +1,9 @@
+{
+  "config": {
+    // Prose is wrapped at 120 characters; tables and long links may not be.
+    "MD013": false,
+    // README and the PR template are not documents with a single title heading.
+    "MD041": false
+  },
+  "ignores": ["node_modules/**"]
+}
