@@ -27,4 +27,4 @@ The team has one member, so one person holds every role.
 | Documentation artifact (ADR) | [docs/adr/ADR-001-demo-tutor-without-api-key.md](docs/adr/ADR-001-demo-tutor-without-api-key.md) |
 | Retrospective note | [docs/retrospective-w09.md](docs/retrospective-w09.md) |
 | DoD checks, run by CI | [scripts/check_dod.py](scripts/check_dod.py), [.github/workflows/docs.yml](.github/workflows/docs.yml) |
-| Board | GitHub issues labeled `doc-task`, milestone "W09 Mini-Sprint" |
+| Board | [Project "W09 Mini-Sprint"](https://github.com/users/23B1NUM1822/projects/1): `doc-task` issues #1 to #4 with Story Points, all Done |
