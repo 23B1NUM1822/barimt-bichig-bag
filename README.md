@@ -25,5 +25,6 @@ The team has one member, so one person holds every role.
 | --- | --- |
 | Team Definition of Done | [docs/definition-of-done.md](docs/definition-of-done.md) |
 | Documentation artifact (ADR) | [docs/adr/ADR-001-demo-tutor-without-api-key.md](docs/adr/ADR-001-demo-tutor-without-api-key.md) |
+| Retrospective note | [docs/retrospective-w09.md](docs/retrospective-w09.md) |
 | DoD checks, run by CI | [scripts/check_dod.py](scripts/check_dod.py), [.github/workflows/docs.yml](.github/workflows/docs.yml) |
 | Board | GitHub issues labeled `doc-task`, milestone "W09 Mini-Sprint" |
