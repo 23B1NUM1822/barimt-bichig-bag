@@ -1,4 +1,3 @@
-
 # Retrospective: Week 09 mini-sprint
 
 **Audience:** the team and the ICSI438 instructor.
