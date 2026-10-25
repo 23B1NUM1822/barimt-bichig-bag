@@ -1,3 +1,4 @@
+
 # Retrospective: Week 09 mini-sprint
 
 **Audience:** the team and the ICSI438 instructor.
@@ -10,6 +11,7 @@ Sprint Goal: "Our project documentation is lean, audience-tailored, and 'done'."
 
 Sprint date: 2026-10-21. Times are from GitHub (UTC+8) and show when each item was published, not how long the
 work took.
+
 | Phase | Output | Evidence |
 | --- | --- | --- |
 | Kick-off and Sprint Goal | Roles and goal in the README, milestone "W09 Mini-Sprint" | Milestone created 19:16 |
