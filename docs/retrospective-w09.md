@@ -9,7 +9,7 @@ Sprint Goal: "Our project documentation is lean, audience-tailored, and 'done'."
 ## Timeboxes
 
 Sprint date: 2026-10-21. Times are from GitHub (UTC+8) and show when each item was published, not how long the
-work took. The team has one member, so the Scrum Master role was a timer, not a person giving warnings.
+work took.
 
 | Phase | Output | Evidence |
 | --- | --- | --- |
@@ -35,8 +35,10 @@ defects (missing audience line, a changed code line, a filler word, a fourth con
 Trade-offs field) failed on all five. The same test found a bug in the checker, which reported a mismatched excerpt
 as verified; PR #5 fixed it before merge.
 
-**What did not go well?** Peer review. With one member, the author ticked the review checklist, so DoD item 4 proves
-that the checklist was used, not that a second person read the document. CI also cannot compare code excerpts,
+**What did not go well?** Peer review came late. The author ticked the review checklist himself when PR #6 was
+merged, so at merge time DoD item 4 proved that the checklist was used, not that a second person had read the
+document. The Scrum Master reviewed ADR-001 against the DoD after the sprint and left four comments on PR #6. From
+Week 10 the review happens before the merge, not after. CI also cannot compare code excerpts,
 because the LearnLab AI source is not public, so that check runs only on the author's computer. We did not log the start and end of each phase, so the timebox
 table shows publishing times only.
 
