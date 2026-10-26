@@ -11,13 +11,13 @@ T. Sodnomdamba (23B1NUM1822).
 
 ## Roles
 
-The team has two members.
+The team has three members.
 
 | Role | Member |
 | --- | --- |
 | Product Owner | T. Sodnomdamba |
 | Scrum Master / Timekeeper | B. Usukhbayar |
-| Developers / Technical Writers | T. Sodnomdamba, B. Usukhbayar |
+| Developers / Technical Writers | T. Sodnomdamba, B. Usukhbayar, Orgil08 |
 
 The Product Owner wrote the artifact. The Scrum Master kept the timeboxes and reviewed the artifact against the
 Definition of Done.
